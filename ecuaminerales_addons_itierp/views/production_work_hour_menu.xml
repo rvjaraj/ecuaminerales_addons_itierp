@@ -6,7 +6,7 @@
 
     <!-- MENÚ CONFIGURACIO -->
     <menuitem name="CONFIGURACIÓN" id="men_pri_conf"
-              parent="men_pri_mod"/>
+              parent="men_pri_mod" sequence="15"/>
 
     <record id="action_resource_calendar_work_hr" model="ir.actions.act_window">
         <field name="name">Jornada de Trabajo</field>

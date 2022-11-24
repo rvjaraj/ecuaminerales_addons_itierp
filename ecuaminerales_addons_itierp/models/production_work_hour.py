@@ -19,6 +19,7 @@ class ProductionWorkHour(models.Model):
     _name = 'production.work.hour'
     _description = 'Modulo de Horas en producción '
     _rec_name = 'sequence'
+    _order = 'sequence desc'
 
     sequence = fields.Char('Secuencia', required=False, readonly=True, track_visibility='onchange')
     document = fields.Binary('Documento de Horas', store=True)

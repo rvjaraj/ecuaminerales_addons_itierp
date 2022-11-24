@@ -29,9 +29,9 @@
                         <button type="object" icon="fa-dedent" name="delete_duplicates"
                                 string="DEPURAR DATOS" states="load,purify"
                                 class="btn btn-primary"/>
-                        <button type="object" icon="fa-file-excel-o" name="print_excel_report"
-                                string="IMPRIMIR EXCEL" states="load,purify,confirm"
-                                class="btn btn-primary"/>
+<!--                        <button type="object" icon="fa-file-excel-o" name="print_excel_report"-->
+<!--                                string="IMPRIMIR EXCEL" states="load,purify,confirm"-->
+<!--                                class="btn btn-primary"/>-->
                         <button type="object" icon="fa-file-excel-o" name="print_excel_report_resumen"
                                 string="IMPRIMIR RESUMEN" states="load,purify,confirm"
                                 class="btn btn-primary"/>
